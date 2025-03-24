@@ -1,0 +1,17 @@
+body{
+    margin: 100px 350px;
+    
+}
+.operation{
+    height: 60px;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.text{
+    text-align: center;
+    color: green;
+}
