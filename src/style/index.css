@@ -1,6 +1,20 @@
 body{
-    margin: 100px 350px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     
+}
+.qutu{
+    max-width: calc(100% - 200px);
+
+}
+@media (max-width: 480px){
+    .qutu{
+        max-width: calc(100% - 20px);
+    }
 }
 .operation{
     height: 60px;
